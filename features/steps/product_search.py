@@ -10,6 +10,9 @@ SEARCH_SUBMIT = (By.NAME, 'btnK')
 @given('Open Google page')
 def open_google(context):
     context.driver.get('https://www.google.com/')
+    # The below code is added to click on "Accept All" button on the "Before you continue to Google" dialog box
+    context.driver.find_element(By.ID, "L2AGLb").click()
+
 
 
 @when('Input {search_word} into search field')

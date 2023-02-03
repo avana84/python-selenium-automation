@@ -3,12 +3,11 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # init driver
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(executable_path="/Users/anavisekruna/Desktop/Automation_QA/python-selenium-automation/chromedriver")
 driver.maximize_window()
-
 # open the url
 driver.get('https://www.google.com/')
-
+# sleep(50)
 search = driver.find_element(By.NAME, 'q')
 search.clear()
 search.send_keys('Dress')
