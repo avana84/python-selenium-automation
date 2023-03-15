@@ -1,0 +1,29 @@
+h2 {color: #2403fc;
+
+}
+
+h4 {color: #330080;
+
+}
+
+div{
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    margin-bottom: 5px;
+    background-color:#b603fc;
+    color: #fc03d3;
+    font-size: 15px;
+    font-family: Halvetica;
+
+}
+
+div.food {
+    background-image: url(" backimg.png ")
+}
+
+div.gourmet {
+   background-image: url("backimg2.png")
+
+}
+
