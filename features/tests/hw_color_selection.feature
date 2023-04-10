@@ -1,6 +1,5 @@
-# Created by anavisekruna at 4/4/23
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: Test for shirts page
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: User can select different color shirts
+    Given Open Amazon product B096X4ZGXL page
+    Then Verify I can click through colors
